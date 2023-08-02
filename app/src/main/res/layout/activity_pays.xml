@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pays">
+
+
+    <TextView
+        android:id="@+id/txtC"
+        style="@style/txtPretendardmedium18"
+        android:layout_width="224dp"
+        android:layout_height="70dp"
+        android:layout_gravity="top|center"
+        android:layout_marginStart="@dimen/_1pxh"
+        android:layout_marginTop="304dp"
+        android:ellipsize="end"
+        android:gravity="top|start"
+        android:singleLine="true"
+        android:text="@{paymentRecordVM.paymentRecordModel.txtC}"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/msg_2023_07_01" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
